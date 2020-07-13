@@ -23,3 +23,6 @@ for (var i = 1; i <= 100; ++i) {
  form.elements[i].checked = false
    }
 }
+function exit(){
+       location.replace ("games.html") 
+}
