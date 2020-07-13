@@ -152,17 +152,17 @@ const questions = [
 
   {
 
-    question: 'Who is the best YouTuber?',
+   question: 'Governor is appointed by the……',
 
     answers: [
 
-      { text: 'Web Dev Simplified', correct: true },
+      { text: 'Prime Minister', correct: false },
 
-      { text: 'Traversy Media', correct: true },
+      { text: 'President', correct: true },
 
-      { text: 'Dev Ed', correct: true },
+      { text: 'Chief Justice of India', correct: false },
 
-      { text: 'Fun Fun Function', correct: true }
+      { text: 'Chief Justice of the concerned state high court', correct: false }
 
     ]
 
@@ -201,3 +201,6 @@ const questions = [
   }
 
 ]
+function exit(){
+       location.replace ("games.html") 
+}
