@@ -602,3 +602,6 @@ function endGame(who) {
     }
     setTimeout(restartGame, 800);
 }
+function exit(){
+       location.replace ("games.html") 
+}
