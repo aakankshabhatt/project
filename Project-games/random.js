@@ -32,5 +32,7 @@ function Game(Number) {
 		document.FGame.Tries.value=RTries;
    	}
 }
-
+function exit(){
+       location.replace ("games.html") 
+}
 
